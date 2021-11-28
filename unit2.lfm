@@ -1,0 +1,73 @@
+object Form2: TForm2
+  Left = 292
+  Height = 304
+  Top = 163
+  Width = 435
+  BorderStyle = bsDialog
+  Caption = 'LajesNB'
+  ClientHeight = 304
+  ClientWidth = 435
+  Color = 16764878
+  LCLVersion = '2.0.12.0'
+  object GroupBox1: TGroupBox
+    Left = 8
+    Height = 288
+    Top = 8
+    Width = 420
+    Caption = 'Sobre'
+    ClientHeight = 264
+    ClientWidth = 416
+    Color = 16764878
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 0
+    OnClick = GroupBox1Click
+    object Label1: TLabel
+      Left = 4
+      Height = 135
+      Top = 5
+      Width = 411
+      Caption = 'LajesNB é uma ferramenta útil para o dimensionamento de lajes nervuradas'#13#10'bidirecionais isótropas.'#13#10#13#10'O software considera as vinculações apoiadas nas bordas, já que é a condi-'#13#10'ção mais favoráel à segurança.'#13#10#13#10'O LajesNB faz os cálculos e dimensiona a laje para resistir aos esforços de'#13#10'flexão. Pretende-se, posteriormente, adicionar a verificação ao cisalhamento'#13#10'e o cálculo das deformações.'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -13
+      Font.Name = 'Times New Roman'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+      OnClick = Label1Click
+    end
+    object btnsair: TButton
+      Left = 280
+      Height = 25
+      Top = 232
+      Width = 75
+      Caption = 'SAIR'
+      OnClick = btnsairClick
+      TabOrder = 0
+    end
+  end
+  object Label2: TLabel
+    Left = 14
+    Height = 60
+    Top = 228
+    Width = 201
+    Caption = 'Créditos:'#13#10'Leonardo Sales Duarte'#13#10'Wanderlei Malaquias Pereira Junior'#13#10'Charles Myller Pereira Batista'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clNavy
+    Font.Height = -13
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+end

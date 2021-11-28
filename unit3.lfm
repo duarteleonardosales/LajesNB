@@ -1,0 +1,53 @@
+object Form3: TForm3
+  Left = 818
+  Height = 454
+  Top = 179
+  Width = 376
+  BorderStyle = bsDialog
+  Caption = 'LajesNB'
+  ClientHeight = 454
+  ClientWidth = 376
+  Color = 16764878
+  LCLVersion = '2.0.12.0'
+  object GroupBox1: TGroupBox
+    Left = 7
+    Height = 431
+    Top = 16
+    Width = 362
+    Caption = 'Informações'
+    ClientHeight = 407
+    ClientWidth = 358
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 8
+      Height = 360
+      Top = 4
+      Width = 350
+      Caption = 'A metodologia de cálculo para o desenvolvimento do programa'#13#10'pode ser obtida com mais detalhes em: encurtador.com.br/iuBF7,'#13#10'no trabalho "Rotina computacional aplicada à solução de lajes'#13#10'nervuradas bidirecionais apoiadas retangulares".'#13#10#13#10'Dessa maneira, o usuário poderá se aprofundar no estudo de lajes'#13#10'nervuradas, tendo a possibilidade de pesquisar também outros'#13#10'autores citados e que foram importantes para o desenvolvimento'#13#10'do LajesNB.'#13#10#13#10'Variáveis:'#13#10#13#10'lx - menor lado da laje (m);'#13#10'ly - maior lado da laje (m);'#13#10'hf - espessura da mesa de compressão (cm);'#13#10'bf¹ - largura colaborante da mesa de compressão (cm);'#13#10'bw - espessura da alma (cm);'#13#10'dx - altura útil na menor direção (cm);'#13#10'dy - altura últil na maior direção (cm);'#13#10#13#10'1) A largura colaborante (bf) equivale ao intereixo entre nervuras.'#13#10'    O usuário deve inserior uma largura colaborante adequada, que'#13#10'    deve ser verificada conforme o que a NBR 6118:2014 preconiza.'#13#10'       '
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -13
+      Font.Name = 'Times New Roman'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentColor = False
+      ParentFont = False
+      OnClick = Label1Click
+    end
+    object Button1: TButton
+      Left = 143
+      Height = 25
+      Top = 371
+      Width = 75
+      Caption = 'SAIR'
+      OnClick = Button1Click
+      TabOrder = 0
+    end
+  end
+end
