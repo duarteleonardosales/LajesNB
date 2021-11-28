@@ -2,8 +2,7 @@
 
 LajesNB é um software para dimensionamento de lajes nervuradas bidirecionais com vinculações simplesmente apoiadas.
 
-A entrada de dados do programa (Ver Figura 1)
-foi estruturada em quatro etapas: características dos materiais, dimensões da laje, propriedades das nervuras e carregamento atuante. As unidades de entrada dos dados são especificadas em cada item, evitando assim problemas de compatibilização nos cálculos.
+A entrada de dados do programa foi estruturada em quatro etapas: características dos materiais, dimensões da laje, propriedades das nervuras e carregamento atuante. As unidades de entrada dos dados são especificadas em cada item, evitando assim problemas de compatibilização nos cálculos.
 
 Na saída de dados, o programa informa ao usuário o momento de cálculo nas duas direções, assim como área de aço necessária para suportar os esforços calculados. Além disso, o programa indica ao usuário se houver necessidade de alterar a seção das nervuras.
 
